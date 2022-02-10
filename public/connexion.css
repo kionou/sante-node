@@ -1,0 +1,82 @@
+
+body{
+    font-family: Avanta Garde;
+}
+
+.global-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+form{
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(53, 53, 53)
+}
+
+.login-form{
+    width: 400px;
+    height: 500px;
+    margin: 20px;
+    background: #fff !important;
+    border-radius: 10px !important;
+    font-family: monospace;
+}
+
+input[type="email"],
+input[type="password"] {
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.nav-link:hover{
+    border: 2px solid black;
+    background-color: #000;
+    color: #fff !important;
+    border-radius: 10px;
+}
+
+.card-title{
+    font-weight: 200;
+    padding-top: 20px;
+    font-size: larger;
+    font-family: monospace;
+}
+
+.boutton{
+    background: #0db8de !important;
+    font-size: 14px;
+    transform: translateY(10px);  
+    border-radius: 10px !important;
+}
+.signup{
+    text-align: centre;
+    padding-top: 25px;
+}
+#signup{
+    font-size:16px;
+    color: blue;
+}
+footer{
+    background-color: #333;
+    padding: 20px 0 40px ;
+    color: white;
+}
+.connexion{
+    background: url(images/COVID19-taskforce-840.jpeg) no-repeat center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+h5{
+    font-weight: bolder;
+}
